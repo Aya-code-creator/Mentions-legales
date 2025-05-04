@@ -2,16 +2,16 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #fefbe8;
-    color: #6278d6;
+    background-color: #F3EDDF;
+    color: #69754b;
 }
 
 .container h2{
-    color: #2c66ab;
+    color: #4A4B2F;
 }
 
 .container a{
-    color: #2c66ab;
+    color: #97715a;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #eeebe2;
+    background-color: #D4D1C3;
 }
 
 nav .links{
@@ -33,7 +33,13 @@ nav .links{
 }
 
 nav a{
-    align-items: center;   
+    align-items: center;
+    color: #97715a;
+    text-decoration: none;   
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 .container {
@@ -47,26 +53,26 @@ nav a{
 }
 
 footer {
-    background-color: #eeebe2;
+    background-color: #D4D1C3;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
 }
 
 
 .footer-brand {
-    color: #2c66ab;
+    color: #4A4B2F;
     justify-content: center;
     display: flex;
 }
 
 footer .links{
-    color: #6278d6;
+    color: #69754b;
     justify-content: center;
     text-align: center;
 }
 
 footer a{
-    color: #6278d6;
+    color: #97715a;
     text-decoration: none;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -77,13 +83,13 @@ footer a:hover{
 }
 
 footer .copyright{
-    color: #6278d6;
+    color: #69754b;
     justify-content: center;
     display: flex;
 }
 
 footer .made-w{
-    color: #6278d6;
+    color: #69754b;
     justify-content: center;
     text-align: center;
 }
